@@ -1,0 +1,21 @@
+name: RekuDrop
+version: '${project.version}'
+main: me.rekuseq.rekudrop.RekuDrop
+api-version: 1.19
+authors: [ Rekuseq ]
+description: Drop z stone
+
+commands:
+  drop:
+  rekudrop:
+
+permissions:
+  rekudrop.*:
+    default: false
+    description: gives all permisions of plugin
+    children:
+      rekudrop.reload: true
+  rekudrop.reload:
+    default: false
+    description: allows reload plugin
+

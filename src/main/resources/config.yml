@@ -1,0 +1,136 @@
+#Konfiguracja rekuDrop 1.0
+#Tytul menu z lista dropow
+drop-inventory-title: "&6&lrekuDrop"
+#Nazwy przedmiotow w menu
+coal-name: "&8&lWegiel"
+iron-name: "&7&lSztabka zelaza"
+redstone-name: "&4&lRedstone"
+lapis-name: "&1&lLapis"
+gold-name: "&6&lSztabka zlota"
+diamond-name: "&b&lDiament"
+emerald-name: "&2&lEmerald"
+cobblestone-name: "&8&lDrop cobble"
+#Drop cobble
+status: "&7&lStatus: "
+wlaczony: "&2&lWlaczony"
+wylaczony: "&4&lWylaczony"
+#Wlacz zwiekszenie lootu z enchantem Fortune 1/2/3
+#true - wlaczony; false - wylaczony
+fortune-drop-boost: true
+#Przedmioty lore
+coal-lore:
+  - "&7Wypada na wysokosci Y: &60-262"
+  - "&7Drop: &2wlaczony"
+  - " "
+  - "&b&lBrak fortuny"
+  - "&7Szansa: &a25%"
+  - "&b&lFortune 1"
+  - "&7Szansa: &a35%"
+  - "&b&lFortune 2"
+  - "&7Szansa: &a45%"
+  - "&b&lFortune 3"
+  - "&7Szansa: &a55%"
+  - " "
+  - "&8=================="
+  - "&bKliknij aby przelaczyc drop"
+iron-lore:
+  - "&7Wypada na wysokosci Y: &60-242"
+  - "&7Drop: &2wlaczony"
+  - " "
+  - "&b&lBrak fortuny"
+  - "&7Szansa: &a15%"
+  - "&b&lFortune 1"
+  - "&7Szansa: &a25%"
+  - "&b&lFortune 2"
+  - "&7Szansa: &a35%"
+  - "&b&lFortune 3"
+  - "&7Szansa: &a45%"
+  - " "
+  - "&8=================="
+  - "&bKliknij aby przelaczyc drop"
+redstone-lore:
+  - "&7Wypada na wysokosci Y: &60-240"
+  - "&7Drop: &2wlaczony"
+  - " "
+  - "&b&lBrak fortuny"
+  - "&7Szansa: &a20%"
+  - "&b&lFortune 1"
+  - "&7Szansa: &a30%"
+  - "&b&lFortune 2"
+  - "&7Szansa: &a40%"
+  - "&b&lFortune 3"
+  - "&7Szansa: &a50%"
+  - " "
+  - "&8=================="
+  - "&bKliknij aby przelaczyc drop"
+lapis-lore:
+  - "&7Wypada na wysokosci Y: &60-240"
+  - "&7Drop: &2wlaczony"
+  - " "
+  - "&b&lBrak fortuny"
+  - "&7Szansa: &a20%"
+  - "&b&lFortune 1"
+  - "&7Szansa: &a30%"
+  - "&b&lFortune 2"
+  - "&7Szansa: &a40%"
+  - "&b&lFortune 3"
+  - "&7Szansa: &a50%"
+  - " "
+  - "&8=================="
+  - "&bKliknij aby przelaczyc drop"
+gold-lore:
+  - "&7Wypada na wysokosci Y: &60-55"
+  - "&7Drop: &2wlaczony"
+  - " "
+  - "&b&lBrak fortuny"
+  - "&7Szansa: &a7%"
+  - "&b&lFortune 1"
+  - "&7Szansa: &a9%"
+  - "&b&lFortune 2"
+  - "&7Szansa: &a12%"
+  - "&b&lFortune 3"
+  - "&7Szansa: &a15%"
+  - " "
+  - "&8=================="
+  - "&bKliknij aby przelaczyc drop"
+diamond-lore:
+  - "&7Wypada na wysokosci Y: &60-45"
+  - "&7Drop: &2wlaczony"
+  - " "
+  - "&b&lBrak fortuny"
+  - "&7Szansa: &a2%"
+  - "&b&lFortune 1"
+  - "&7Szansa: &a4%"
+  - "&b&lFortune 2"
+  - "&7Szansa: &a6%"
+  - "&b&lFortune 3"
+  - "&7Szansa: &a10%"
+  - " "
+  - "&8=================="
+  - "&bKliknij aby przelaczyc drop"
+emerald-lore:
+  - "&7Wypada na wysokosci Y: &60-25"
+  - "&7Drop: &2wlaczony"
+  - " "
+  - "&b&lBrak fortuny"
+  - "&7Szansa: &a2%"
+  - "&b&lFortune 1"
+  - "&7Szansa: &a4%"
+  - "&b&lFortune 2"
+  - "&7Szansa: &a6%"
+  - "&b&lFortune 3"
+  - "&7Szansa: &a10%"
+  - " "
+  - "&8=================="
+  - "&bKliknij aby przelaczyc drop"
+#Wlacz/wylacz poziom wypadania
+#true - wlaczony; false - wylaczony
+limit-y-level: true
+#Poziom wypadania
+coal-y-level: 262
+iron-y-level: 242
+redstone-y-level: 240
+lapis-y-level: 240
+gold-y-level: 55
+diamond-y-level: 45
+emerald-y-level: 25
